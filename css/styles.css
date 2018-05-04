@@ -1,0 +1,166 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  font-family: Roboto;
+  }
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+
+/*
+ *
+ * Header ( My Name % Logo)
+ *
+ */
+ 
+
+.header{
+	display:flex;
+	flex-direction: column;
+}
+
+.jumbotron{
+	background-color:white !important;
+	margin:0;
+	padding:5em 0.9em 2em 0.9em !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header_logo {
+	 font-family: 'Kaushan Script', cursive;
+	 font-size: 4.5em;
+	 text-shadow: 2px 2px 5px #455D7A;
+	 color:#233142;
+	 margin: auto 0;
+	 float:left;
+	 display:flex;
+	 justify-content: flex-start;
+}
+
+.header__title , .header__subtitle{
+  font-weight: 700;
+  text-align:right;
+}
+
+.header__title{ 
+	font-family: 'Marck Script', cursive;}
+
+.header__subtitle{ 
+	color:#393E46;
+	font-size:1em;}
+	
+/*
+ *
+ * Main (Sections: Hero Image, main heading
+			projects & footer)
+ *
+ */
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*
+ *
+ * Content
+ *
+ */
+
+.cover_image{
+	width: 100%;
+    height: auto;
+} 
+ 
+ /*
+ *
+ * Main Heading (featured Work)
+ *
+ */
+ 
+ .main_heading h3{
+	 font-size:2em !Important;
+	 font-weight:700 !Important;
+	 padding-top: 2em; 
+	 letter-spacing:0.3em;
+ }
+
+ 
+
+/*
+ *
+ * Projects
+ *
+ */
+ 
+ .project-title{
+	 font-family: 'Kaushan Script', cursive;
+	 padding:0.1em 0 0.2em 0;
+	 letter-spacing:0.1em;
+	 text-align:center;	 
+	 font-weight:600;
+ }
+  
+ .projects img{
+	 padding:2.5em 0 1.5em 0;
+ }
+
+ .project-image{
+	 width: 100%;
+	 height: auto;
+ }
+ 
+ .project-content{
+	display:grid;
+	line-height:2em;
+	font-size:0.9em;
+	color:#222831;
+
+ }
+ 
+ #project-link{
+	 font-size:1.2em;
+	 letter-spacing:0.2em;
+	 font-weight:600;
+	 color:#393E46;
+ }
+ 
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+  padding: 2em;
+  width: 100%;
+}
+
+
+.container-footer{
+	display:flex;
+	flex:wrap;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.container-footer h2{
+	font-size:1.5em;
+	font-weight:900;
+}
+
+i{
+	padding-left: 1em !important;
+	font-size:1.5em;
+}

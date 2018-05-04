@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+
+}
+
+
+@media screen and (max-width: 450px) {
+	
+	.header_logo 
+	{
+		font-size:3em !important;
+	}
+	.header__title , .header__subtitle{
+		font-size:1.5em;
+	}
+	
+	
+	/*
+ *
+ * Projects
+ *
+ */
+ 
+ .project-title{
+	 font-family: 'Kaushan Script', cursive;
+	 padding:0.1em 0 0.2em 0;
+	 letter-spacing:normal;
+	 text-align:center;	 
+	 font-weight:600;
+ }
+	
+	
+	
+	
+	
+	
+	/*Footer*/
+	.container-footer{
+	display:flex;
+	flex-direction:column;
+	
+	}
+	
+	.container-footer h2{
+		font-size:1em !Important;
+		font-weight:900;
+	}
+
+	i{
+		
+		font-size:1em;
+	}
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+}
+
+@media screen and (min-width: 850px) {
+
+}
