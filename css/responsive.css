@@ -21,17 +21,14 @@
  *
  */
  
- .project-title{
-	 font-family: 'Kaushan Script', cursive;
-	 padding:0.1em 0 0.2em 0;
-	 letter-spacing:normal;
-	 text-align:center;	 
-	 font-weight:600;
- }
-	
-	
-	
-	
+	 .project-title{
+		 font-family: 'Kaushan Script', cursive;
+		 padding:0.1em 0 0.2em 0;
+		 letter-spacing:normal;
+		 text-align:center;	 
+		 font-weight:600;
+	 }
+		
 	
 	
 	/*Footer*/
