@@ -28,13 +28,11 @@
 		 text-align:center;	 
 		 font-weight:600;
 	 }
-		
 	
 	/*Footer*/
 	.container-footer{
 	display:flex;
 	flex-direction:column;
-	
 	}
 	
 	.container-footer h2{
@@ -48,15 +46,3 @@
 	}
 }
 
-
-
-@media screen and (min-width: 700px) {
-	
-	
-	
-
-}
-
-@media screen and (min-width: 850px) {
-
-}

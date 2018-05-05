@@ -1,8 +1,8 @@
 body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 
 }
 
@@ -11,7 +11,7 @@ body {
   }
 
 h1, h2, h3, h4, h5 {
-  margin: 0; 
+	margin: 0; 
 }
 
 /*
@@ -35,19 +35,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .header_logo {
-	 font-family: 'Kaushan Script', cursive;
-	 font-size: 4.5em;
-	 text-shadow: 2px 2px 5px #455D7A;
-	 color:#233142;
-	 margin: auto 0;
-	 float:left;
-	 display:flex;
-	 justify-content: flex-start;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 4.5em;
+	text-shadow: 2px 2px 5px #455D7A;
+	color:#233142;
+	margin: auto 0;
+	float:left;
+	display:flex;
+	justify-content: flex-start;
 }
 
 .header__title , .header__subtitle{
-  font-weight: 700;
-  text-align:right;
+	font-weight: 700;
+	text-align:right;
 }
 
 .header__title{ 
@@ -102,6 +102,10 @@ main {
  * Projects
  *
  */
+ 
+ .col-md-4{
+	 width:100%
+ }
  
  .project-title{
 	 font-family: 'Kaushan Script', cursive;
