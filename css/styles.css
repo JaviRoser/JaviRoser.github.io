@@ -110,7 +110,10 @@ main {
 	 text-align:center;	 
 	 font-weight:900;
 	 font-style:uppercase;
-	 
+ }
+ 
+ .project-display{
+	 padding-top:5em;
  }
   
  .projects img{
@@ -124,7 +127,6 @@ main {
  
  .project-content{
 	display:grid;
-
 	font-size:0.9em;
 	color:#222831;
 	 
@@ -134,7 +136,7 @@ main {
 	 font-size:0.9em;
 	 font-weight:900 !Important;
 	 text-align:center;
-	 padding-top:5em;
+	 padding-top:2em;
  }
  
  .project-link a{ /*Change the text in the link*/
