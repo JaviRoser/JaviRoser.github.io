@@ -5,7 +5,6 @@
 
 
 @media screen and (max-width: 450px) {
-	
 	.header_logo 
 	{
 		font-size:3em !important;
@@ -13,14 +12,27 @@
 	.header__title , .header__subtitle{
 		font-size:1.5em;
 	}
+	/*
+	*
+	* Main Heading (featured Work)
+	*
+	*/
+ 
+	 .main_heading h3{
+		 font-size:2em !Important;
+		 font-weight:700 !Important;
+		 padding-top: 2em; 
+		 letter-spacing:0.3em;
+		 text-align:center;
+	 }
 	
 	
 	/*
- *
- * Projects
- *
- */
- 
+	 *
+	 * Projects
+	 *
+	 */
+	 
 	 .project-title{
 		 font-family: 'Kaushan Script', cursive;
 		 padding:0.1em 0 0.2em 0;
@@ -30,19 +42,16 @@
 	 }
 	
 	/*Footer*/
-	.container-footer{
-	display:flex;
-	flex-direction:column;
-	}
 	
 	.container-footer h2{
-		font-size:1em !Important;
+		font-size:0.9em !Important;
 		font-weight:900;
 	}
 
 	i{
-		
 		font-size:1em;
+		padding: 0 0.09em 0 0.09em;
+		margin:0;
 	}
 }
 
