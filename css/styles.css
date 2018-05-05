@@ -109,6 +109,7 @@ main {
 	 letter-spacing:0.1em;
 	 text-align:center;	 
 	 font-weight:900;
+	 font-style:uppercase;
 	 
  }
   
@@ -123,21 +124,27 @@ main {
  
  .project-content{
 	display:grid;
-	line-height:2em;
+
 	font-size:0.9em;
 	color:#222831;
-	font-weight:600;
+	 
  }
  
- .project-link{
-	 font-size:1em;
-	 font-weight:900;
+ .project-link , a{
+	 font-size:0.9em;
+	 font-weight:900 !Important;
 	 text-align:center;
+	 padding-top:5em;
  }
  
- .project-display i{ //*Bold the Hand Icon*/
-	 font-weight:900;
+ .project-link a{ /*Change the text in the link*/
+	 padding-left:1em;
  }
+ 
+ .project-link i{
+	font-weight:;
+ }
+
 
 /*
  *
