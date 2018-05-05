@@ -88,11 +88,10 @@ main {
  *
  */
  
- .main_heading h3{
-	 font-size:2em !Important;
-	 font-weight:700 !Important;
-	 padding-top: 2em; 
-	 letter-spacing:0.3em;
+ .main_heading h1{
+	font-weight:900 !Important;
+	padding-top: 1em; 
+	font-family: 'Marck Script', cursive;
  }
 
  
@@ -103,16 +102,14 @@ main {
  *
  */
  
- .col-md-4{
-	 width:100%
- }
  
  .project-title{
-	 font-family: 'Kaushan Script', cursive;
-	 padding:0.1em 0 0.2em 0;
+	font-family: 'Kaushan Script', cursive;
+	 padding:0.1em 0 1.5em 0;
 	 letter-spacing:0.1em;
 	 text-align:center;	 
-	 font-weight:600;
+	 font-weight:900;
+	 
  }
   
  .projects img{
@@ -129,16 +126,18 @@ main {
 	line-height:2em;
 	font-size:0.9em;
 	color:#222831;
-
+	font-weight:600;
  }
  
- #project-link{
-	 font-size:1.2em;
-	 letter-spacing:0.2em;
-	 font-weight:600;
-	 color:#393E46;
+ .project-link{
+	 font-size:1em;
+	 font-weight:900;
+	 text-align:center;
  }
  
+ .project-display i{ //*Bold the Hand Icon*/
+	 font-weight:900;
+ }
 
 /*
  *
