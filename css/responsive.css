@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 450px) {
 	.header-logo 
 	{
@@ -25,7 +24,7 @@
 	
 	/*
 	 *
-	 * Projects
+	 * Project
 	 *
 	 */
 	 
@@ -38,7 +37,7 @@
 	 }
 	 
 	 .project-display{
-		 padding-top:3em;
+		 padding-top:2em;
 	 }
 	
 	/*Footer*/
