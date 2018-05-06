@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5 {
  */
  
 
-.jumbotron{
+.jumbotron {
 	background-color:white !important;
 	margin:0;
 	padding:5em 0 3em 0 !important;
@@ -30,22 +30,22 @@ h1, h2, h3, h4, h5 {
 	text-shadow: 2px 2px 5px #455D7A;
 	color:#233142;
 	margin: auto 0;
-	float:left;
-	display:flex;
-	justify-content: flex-start;
 }
 
-.header-title , .header-subtitle{
+.header-title , 
+.header-subtitle {
 	font-weight: 700;
 	text-align:right;
 }
 
-.header-title{ 
-	font-family: 'Marck Script', cursive;}
+.header-title { 
+	font-family: 'Marck Script', cursive;
+}
 
-.header-subtitle{ 
+.header-subtitle { 
 	color:#393E46;
-	font-size:1em;}
+	font-size:1em;
+}
 	
 /*
  *
@@ -67,7 +67,7 @@ main {
  *
  */
 
-#cover-image{
+#cover-image {
 	width:100%;
 	opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
@@ -79,7 +79,7 @@ main {
  *
  */
  
- .main-heading h2{
+ .main-heading h2 {
 	font-weight:900 !Important;
 	padding: 3em 0 0.1em 0; 
 	font-family: 'Marck Script', cursive;
@@ -93,7 +93,7 @@ main {
  */
  
  
- .project-title{
+ .project-title {
 	font-family: 'Kaushan Script', cursive;
 	padding:0.1em 0 1.5em 0;
 	text-align:center;	 
@@ -102,30 +102,29 @@ main {
  
  
   
- .projects img{
+ .projects img {
 	 padding:2.5em 0 1.5em 0;
  }
 
 
- .project-content{
+ .project-content {
 	display:grid;
 	font-size:0.9em;
 	color:#222831;
-	 
  }
  
- .project-link , a{
+ .project-link , a {
 	 font-size:0.9em;
 	 text-align:center;
 	 /*padding-top:2em;*/
  }
  
- .project-link a{ /*Change the text in the link*/
+ .project-link a { /*Change the text in the link*/
 	 font-family: 'Handlee', cursive;
 	 padding-left:0.5em;
  }
  
- .project-link i{
+ .project-link i {
 	font-weight:900;
  }
 
@@ -142,19 +141,19 @@ footer {
 }
 
 
-.container-footer{
+.container-footer { 
 	display:flex;
 	flex:wrap;
 	flex-direction:row;
 	justify-content:center;
 }
 
-.container-footer h2{
+.container-footer h2 {
 	font-size:1.5em;
 	font-weight:900;
 }
 
-i{
+i {
 	padding-left: 1em !important;
 	font-size:1.5em;
 }
