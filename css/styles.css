@@ -83,12 +83,11 @@ main {
  
  .main-heading h2{
 	font-weight:900 !Important;
-	padding-top: 0.5em; 
+	padding: 3em 0 0.1em 0; 
 	font-family: 'Marck Script', cursive;
  }
 
  
-
 /*
  *
  * Project Sections
