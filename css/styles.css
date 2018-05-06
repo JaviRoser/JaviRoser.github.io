@@ -79,11 +79,11 @@ main {
  *
  */
  
- .main-heading h2 {
+.main-heading h2 {
 	font-weight:900 !Important;
 	padding: 3em 0 0.1em 0; 
 	font-family: 'Marck Script', cursive;
- }
+}
 
  
 /*
@@ -93,40 +93,37 @@ main {
  */
  
  
- .project-title {
+.project-title {
 	font-family: 'Kaushan Script', cursive;
 	padding:0.1em 0 1.5em 0;
 	text-align:center;	 
 	font-weight:900;
- }
- 
- 
-  
- .projects img {
-	 padding:2.5em 0 1.5em 0;
- }
+}
+   
+.projects img {
+	padding:2.5em 0 1.5em 0;
+}
 
 
- .project-content {
+.project-content {
 	display:grid;
 	font-size:0.9em;
 	color:#222831;
- }
+}
  
- .project-link , a {
-	 font-size:0.9em;
-	 text-align:center;
-	 /*padding-top:2em;*/
- }
- 
- .project-link a { /*Change the text in the link*/
-	 font-family: 'Handlee', cursive;
-	 padding-left:0.5em;
- }
- 
- .project-link i {
+.project-link , a {
+	font-size:0.9em;text-align:center;
+ /*padding-top:2em;*/
+}
+
+.project-link a { /*Change the text in the link*/
+	font-family: 'Handlee', cursive;
+	padding-left:0.5em;
+}
+
+.project-link i {
 	font-weight:900;
- }
+}
 
 
 /*
@@ -136,8 +133,8 @@ main {
  */
 
 footer {
-  padding: 10em 0 2em 0;
-  width: 100%;
+	padding: 10em 0 2em 0;
+	width: 100%;
 }
 
 

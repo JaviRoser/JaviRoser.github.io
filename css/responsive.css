@@ -1,10 +1,12 @@
 
 @media screen and (max-width: 450px) {
-	.header-logo 
-	{
+	
+	.header-logo {
 		font-size:3em !important;
 	}
-	.header-title , .header-subtitle{
+	
+	.header-title , 
+	.header-subtitle{
 		font-size:1.5em;
 	}
 	/*
@@ -13,7 +15,7 @@
 	*
 	*/
  
-	 .main-heading h2{
+	.main-heading h2 {
 		 font-size:2em !Important;
 		 font-weight:700 !Important;
 		 padding-top: 2em; 
@@ -27,7 +29,7 @@
 	 *
 	 */
 	 
-	 .project-title{
+	 .project-title {
 		 font-family: 'Kaushan Script', cursive;
 		 padding:0.1em 0 0.2em 0;
 		 letter-spacing:normal;
@@ -35,18 +37,18 @@
 		 font-weight:600;
 	 }
 	 
-	 .project-display{
+	 .project-display {
 		 padding-top:2em;
 	 }
 	
 	/*Footer*/
 	
-	.container-footer h2{
+	.container-footer h2 {
 		font-size:0.9em !Important;
 		font-weight:900;
 	}
 
-	i{
+	i {
 		font-size:1em;
 		padding: 0 0.09em 0 0.09em;
 		margin:0;
