@@ -5,7 +5,7 @@
 	{
 		font-size:3em !important;
 	}
-	.header__title , .header__subtitle{
+	.header-title , .header-subtitle{
 		font-size:1.5em;
 	}
 	/*
@@ -14,7 +14,7 @@
 	*
 	*/
  
-	 .main-heading h1{
+	 .main-heading h2{
 		 font-size:2em !Important;
 		 font-weight:700 !Important;
 		 padding-top: 2em; 
