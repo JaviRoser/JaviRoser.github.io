@@ -24,7 +24,7 @@
  5. Validate your HTML and CSS against the [W3C’s Validators](https://validator.w3.org/)
  
  
-:point_right:**See the Project live:** https://javiroser.github.io/
+**See the Project live:** https://javiroser.github.io/
 
 ## Built With
 
