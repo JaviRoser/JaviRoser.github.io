@@ -3,8 +3,7 @@
 
 ## Project Overview
 
-  We are building a portfolio website. A deign mockup as a PDF file was provided, and we must replicate 
-  the design in **HTML and CSS**. The site should be responsive, and display images, descriptions and links 
+ This is the first Udacity project, which consists in building a portfolio website. A deign mockup as a PDF file was provided, and we must replicate the design in **HTML and CSS**. The site should be responsive, and display images, descriptions and links 
   to each of the portfolio projects that we will complete through our course of our nanodegree program. 
   After replicating the design mockup, we can continue tweaking and making customizations to the design.
 
@@ -24,7 +23,7 @@
  5. Validate your HTML and CSS against the [W3C’s Validators](https://validator.w3.org/)
  
  
-**See the Project live:** https://javiroser.github.io/
+**See the Project live:** https://javiroser.github.io/Udacity-Portfolio//
 
 ## Built With
 
