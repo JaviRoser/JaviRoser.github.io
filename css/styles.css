@@ -1,9 +1,19 @@
+/*Update on 05/06/19
+*/
+
+:root {
+    --main-color: #233142;
+    --secondary-color: #222831;
+    --ternary-color:#455D7A;
+    --four-color:white;
+}
+
 body,
 html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 h1,
@@ -11,59 +21,59 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0;
+    margin: 0;
 }
 
 
 /*
  *
- * Header ( My Name % Logo)
+ * Header ( My Name & Logo)
  *
  */
 
 .jumbotron {
-  background-color: white !important;
-  margin: 0;
-  padding: 5em 0 3em 0 !important;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: white !important;
+    margin: 0;
+    padding: 5em 0 3em 0 !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-logo {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 4.5em;
-  text-shadow: 2px 2px 5px #455D7A;
-  color: #233142;
-  margin: auto 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4.5em;
+    text-shadow: 2px 2px 5px var(--ternary-color);
+    color:var(--main-color);
+    margin: auto 0;
 }
 
 .header-title,
 .header-subtitle {
-  font-weight: 700;
-  text-align: right;
+    font-weight: 700;
+    text-align: right;
 }
 
 .header-title {
-  font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script', cursive;
 }
 
 .header-subtitle {
-  color: #393E46;
-  font-size: 1em;
+    color: #393E46;
+    font-size: 1em;
 }
 
 
 /*
  *
  * Main (Sections: Hero Image, main heading
-			projects & footer)
+      projects & footer)
  *
  */
 
 main {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -74,10 +84,10 @@ main {
  */
 
 #cover-image {
-  width: 100%;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  /* For IE8 and earlier */
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
 }
 
 
@@ -88,9 +98,9 @@ main {
  */
 
 .main-heading h2 {
-  font-weight: 900 !Important;
-  padding: 3em 0 0.1em 0;
-  font-family: 'Marck Script', cursive;
+    font-weight: 900 !Important;
+    padding: 3em 0 0.1em 0;
+    font-family: 'Marck Script', cursive;
 }
 
 
@@ -101,34 +111,58 @@ main {
  */
 
 .projects img {
-  padding: 2.5em 0 1.5em 0;
+    padding: 2.5em 0 1.5em 0;
 }
 
 .project-title {
-  font-family: 'Kaushan Script', cursive;
-  padding: 0.1em 0 1.5em 0;
-  text-align: center;
-  font-weight: 900;
+    font-family: 'Kaushan Script', cursive;
+    padding: 0.1em 0 1.5em 0;
+    text-align: center;
+    font-weight: 900;
 }
 
 .project-content {
-  font-size: 0.9em;
-  color: #222831;
-  text-align: justify;
-  padding: 0.5em;
+    font-size: 0.9em;
+    color: var(--secondary-color);
+    text-align: justify;
+    padding: 0.5em;
 }
 
 .project-link,
 a {
-  /*Change the text in the link*/
-  font-family: 'Handlee', cursive;
-  padding-left: 0.4em;
-  text-align: center;
-  font-size: 0.8em;
+    /*Change the text in the link*/
+    font-family: 'Handlee', cursive;
+    padding-left: 0.4em;
+    text-align: center;
+    font-size: 0.8em;
 }
 
 .project-link i {
-  font-weight: 900;
+    font-weight: 900;
+}
+
+
+/*View More Projects button*/
+.view-more-projects-btn{
+  text-align: center;
+  padding-top: 8em;
+  margin: 0;
+}
+.btn {
+    border: 1px solid transparent;
+    border-radius: 7px;
+    border-color: var(--main-color);
+    font-weight: 500;
+    text-align: center;
+    color: var(--secondary-color);
+    font-weight: 700;
+    background-color: transparent;
+
+}
+
+.btn:hover{
+  color:var(--four-color);
+  background-color: var(--main-color)
 }
 
 
@@ -139,21 +173,21 @@ a {
  */
 
 footer {
-  padding: 10em 0 2em 0;
-  width: 100%;
+    padding: 10em 0 2em 0;
+    width: 100%;
 }
 
 .container-footer h2 {
-  font-size: 2.5em;
-  font-weight: 900;
-  font-family: 'Marck Script', cursive;
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: 'Marck Script', cursive;
 }
 
 .container-footer i {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 i {
-  padding-left: 0.3em !important;
-  font-size: 1.5em;
+    padding-left: 0.3em !important;
+    font-size: 1.5em;
 }
